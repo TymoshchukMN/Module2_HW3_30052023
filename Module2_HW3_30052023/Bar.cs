@@ -9,7 +9,7 @@ namespace Module2_HW3_30052023
     /// <summary>
     /// Bar chocolate.
     /// </summary>
-    public class Bar : MilkChocolate
+    public sealed class Bar : MilkChocolate
     {
     }
 }

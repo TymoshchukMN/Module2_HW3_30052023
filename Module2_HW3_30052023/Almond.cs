@@ -11,7 +11,14 @@ namespace Module2_HW3_30052023
     /// <summary>
     /// Almond.
     /// </summary>
-    public class Almond : NutChocolate
+    public sealed class Almond : NutChocolate
     {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Almond"/> class.
+        /// </summary>
+        public Almond()
+        {
+            Weight = 170;
+        }
     }
 }

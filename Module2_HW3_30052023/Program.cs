@@ -23,11 +23,11 @@ namespace Module2_HW3_30052023
         {
             Gift gift = new Gift();
 
-            gift.Weight = 20;
+            //gift.Weight = 20;
 
             HazelnutChocolate hazelnut = new HazelnutChocolate();
 
-            hazelnut.Weight = 30;
+            //hazelnut.Weight = 30;
             Console.WriteLine($"hazelnut.Weight = {hazelnut.Weight}, gift.Weight = {gift.Weight}");
 
             Console.ReadKey();

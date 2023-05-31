@@ -11,7 +11,7 @@ namespace Module2_HW3_30052023
     /// <summary>
     /// OrangeCaramel.
     /// </summary>
-    public class OrangeCaramel : Caramel
+    public sealed class OrangeCaramel : Caramel
     {
     }
 }

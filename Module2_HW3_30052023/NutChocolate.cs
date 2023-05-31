@@ -13,5 +13,9 @@ namespace Module2_HW3_30052023
     /// </summary>
     public class NutChocolate : Chocolate
     {
+        public NutChocolate()
+        {
+            Console.WriteLine("caled NutChocolate");
+        }
     }
 }

@@ -13,5 +13,9 @@ namespace Module2_HW3_30052023
     /// </summary>
     public abstract class Candy : Gift
     {
+        public Candy()
+        {
+            Console.WriteLine("caled Candy");
+        }
     }
 }

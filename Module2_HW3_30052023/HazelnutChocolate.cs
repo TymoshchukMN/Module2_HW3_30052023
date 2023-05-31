@@ -11,7 +11,17 @@ namespace Module2_HW3_30052023
     /// <summary>
     /// HazelnutChocolate.
     /// </summary>
-    public class HazelnutChocolate : NutChocolate
+    public sealed class HazelnutChocolate : NutChocolate
     {
+
+        /// <summary>
+        /// Initializes a new instance of the
+        /// <see cref="HazelnutChocolate"/> class.
+        /// </summary>
+        public HazelnutChocolate()
+        {
+            Weight = 150;
+            Console.WriteLine("caled HazelnutChocolate");
+        }
     }
 }

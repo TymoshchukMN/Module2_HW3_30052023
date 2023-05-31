@@ -11,7 +11,7 @@ namespace Module2_HW3_30052023
     /// <summary>
     /// RusberryCaramel/
     /// </summary>
-    public class RusberryCaramel : Caramel
+    public sealed class RusberryCaramel : Caramel
     {
     }
 }

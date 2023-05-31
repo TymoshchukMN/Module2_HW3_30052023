@@ -11,7 +11,7 @@ namespace Module2_HW3_30052023
     /// <summary>
     /// Porous.
     /// </summary>
-    public class Porous : MilkChocolate
+    public sealed class Porous : MilkChocolate
     {
     }
 }
