@@ -15,6 +15,7 @@ namespace Module2_HW3_30052023
     {
         private const int GiftsBoxSize = 15;
         private Gift[] _gifts;
+        private string[] _groupedGifts = new string[0];
 
         /// <summary>
         /// Initializes a new instance of the <see cref="GiftBox"/> class.
@@ -34,6 +35,8 @@ namespace Module2_HW3_30052023
                 _gifts[i] = FillGiftBox(randNUm);
                 Console.WriteLine($"{i} - {_gifts[i]}");
             }
+
+            GroupdGifts();
         }
 
         /// <summary>
@@ -42,6 +45,14 @@ namespace Module2_HW3_30052023
         public Gift[] Gifts
         {
             get { return _gifts; }
+        }
+
+        public string[] GroupedGifts
+        {
+            get
+            {
+                return _groupedGifts;
+            }
         }
 
         /// <summary>
@@ -96,6 +107,36 @@ namespace Module2_HW3_30052023
             return null;
         }
 
-       
+        private void GroupdGifts()
+        {
+
+            int n = _gifts.Length;
+
+            for (int i = 0; i < n; i++)
+            {
+                bool isDuplicate = false;
+                for (int j = 0; j < i; j++)
+                {
+                    if (_gifts[i].ToString() == _gifts[j].ToString())
+                    {
+                        isDuplicate = true;
+                        break;
+                    }
+                }
+
+                if (!isDuplicate)
+                {
+                    Array.Resize(ref _groupedGifts, _groupedGifts.Length + 1);
+                    _groupedGifts[_groupedGifts.Length - 1] = _gifts[i].ToString();
+                    Console.WriteLine(_gifts[i]);
+                }
+
+                for (int i = 0; i < _groupedGifts.Length; i++)
+                {
+
+                }
+            }
+
+        }
     }
 }

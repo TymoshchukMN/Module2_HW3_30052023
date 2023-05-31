@@ -21,19 +21,5 @@ namespace Module2_HW3_30052023
         {
             Weight = 150;
         }
-
-        ///// <summary>
-        ///// Compare objects.
-        ///// </summary>
-        ///// <param name="obj">
-        ///// Object for compairing.
-        ///// </param>
-        ///// <returns>
-        ///// true/false
-        ///// </returns>
-        //public int CompareTo(object obj)
-        //{
-        //    return this.ToString().CompareTo(obj.ToString());
-        //}
     }
 }

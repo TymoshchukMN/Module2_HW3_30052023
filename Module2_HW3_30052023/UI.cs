@@ -13,12 +13,36 @@ namespace Module2_HW3_30052023
     /// </summary>
     internal class UI
     {
+        /// <summary>
+        /// Print gift box.
+        /// </summary>
+        /// <param name="giftBox">
+        /// box.
+        /// </param>
         public static void PrintGiftBox(GiftBox giftBox)
         {
-            for (int i = 0; i < giftBox.Gifts.Length; i++)
+            int n = giftBox.Gifts.Length;
+
+            for (int i = 0; i < n; i++)
             {
-                Console.WriteLine();
+                bool isDuplicate = false;
+                for (int j = 0; j < i; j++)
+                {
+                    if (giftBox.Gifts[i].ToString() == giftBox.Gifts[j].ToString())
+                    {
+                        isDuplicate = true;
+                        break;
+                    }
+                }
+
+                if (!isDuplicate)
+                {
+                    Console.WriteLine(giftBox.Gifts[i]);
+                }
+
             }
+
+            Console.WriteLine();
         }
     }
 }
