@@ -27,15 +27,10 @@ namespace Module2_HW3_30052023
             set { _weight = value; }
         }
 
-        //public static bool operator ==(Gift gift1, Gift gift2)
-        //{
-        //    return gift1.ToString() == gift2.ToString();
-        //}
-
-        //public static bool operator !=(Gift gift1, Gift gift2)
-        //{
-        //    return !(gift1 == gift2);
-        //}
+        public static implicit operator Gift(string gift)
+        {
+            return new Gift();
+        }
 
         /// <summary>
         /// override ToString.

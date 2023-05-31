@@ -16,6 +16,7 @@ namespace Module2_HW3_30052023
         private const int GiftsBoxSize = 15;
         private Gift[] _gifts;
         private string[] _groupedGifts = new string[0];
+        private int _weight;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="GiftBox"/> class.
@@ -47,6 +48,17 @@ namespace Module2_HW3_30052023
         }
 
         /// <summary>
+        /// Gets summary weight of box.
+        /// </summary>
+        public int GetSummaryWeight
+        {
+            get
+            {
+                return _weight;
+            }
+        }
+
+        /// <summary>
         /// Gets grouped gifts with count elements.
         /// </summary>
         public string[] GroupedGifts
@@ -60,10 +72,7 @@ namespace Module2_HW3_30052023
         /// <summary>
         /// Calculate summary weught gifts.
         /// </summary>
-        /// <returns>
-        /// Weight.
-        /// </returns>
-        public int CalculateWightGiftBox()
+        public void CalculateWightGiftBox()
         {
             int weight = 0;
 
@@ -72,7 +81,7 @@ namespace Module2_HW3_30052023
                 weight += _gifts[i].Weight;
             }
 
-            return weight;
+            _weight = weight;
         }
 
         /// <summary>
@@ -131,23 +140,33 @@ namespace Module2_HW3_30052023
                 if (!isDuplicate)
                 {
                     Array.Resize(ref _groupedGifts, _groupedGifts.Length + 1);
-                    _groupedGifts[_groupedGifts.Length - 1] = _gifts[i].ToString();
+                    _groupedGifts[_groupedGifts.Length - 1]
+                        = $"{_gifts[i].Weight}:{_gifts[i]}";
                 }
             }
 
             for (int i = 0; i < _groupedGifts.Length; i++)
             {
                 int countCpecificGifts = 0;
-
+                int weightGift = 0;
                 for (int j = 0; j < _gifts.Length; j++)
                 {
-                    if (_groupedGifts[i] == _gifts[j].ToString())
+                    string giftForCompaire = _groupedGifts[i].Split(':')[1];
+                    if (giftForCompaire == _gifts[j].ToString())
                     {
                         ++countCpecificGifts;
+                        if (weightGift == 0)
+                        {
+                            weightGift = _gifts[j].Weight;
+                        }
                     }
                 }
 
-                _groupedGifts[i] = $"{countCpecificGifts}\t{_groupedGifts[i]}";
+                weightGift = weightGift * countCpecificGifts;
+                string strWeifhtOneGift = _groupedGifts[i].Split(':')[0];
+                string gift = _groupedGifts[i].Split(':')[1];
+
+                _groupedGifts[i] = $"{countCpecificGifts}\t{weightGift}\t\t{strWeifhtOneGift}\t\t{gift}";
             }
 
             Array.Sort(_groupedGifts);

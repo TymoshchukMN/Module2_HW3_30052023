@@ -19,13 +19,39 @@ namespace Module2_HW3_30052023
         /// <param name="giftBox">
         /// box.
         /// </param>
-        public static void PrintGiftBox(string [] giftBox)
+        public static void PrintGiftBox(string[] giftBox)
         {
             Console.WriteLine("Count:\tGifts:\n");
             for (int i = 0; i < giftBox.Length; i++)
             {
                 Console.WriteLine(giftBox[i]);
             }
+        }
+
+        /// <summary>
+        /// Print gift box.
+        /// </summary>
+        /// <param name="giftBox">
+        /// box.
+        /// </param>
+        public static void PrintGiftBox(GiftBox giftBox)
+        {
+
+            Console.WriteLine("Gift box:\n");
+            ConsoleColor defColor = Console.ForegroundColor;
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Count:\tWeight summury:\tWeight one:\tGifts:\n");
+            Console.ForegroundColor = defColor;
+
+            for (int i = 0; i < giftBox.GroupedGifts.Length; i++)
+            {
+                Console.WriteLine(giftBox.GroupedGifts[i]);
+            }
+
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine($"\n\nSummary weight:\t{giftBox.GetSummaryWeight} gramm");
+            Console.ForegroundColor = defColor;
         }
     }
 }
