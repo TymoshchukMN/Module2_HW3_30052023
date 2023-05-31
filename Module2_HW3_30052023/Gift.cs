@@ -11,7 +11,7 @@ namespace Module2_HW3_30052023
     /// <summary>
     /// Base class.
     /// </summary>
-    public class Gift
+    public class Gift:IComparable
     {
         /// <summary>
         /// gift weight.
@@ -30,6 +30,20 @@ namespace Module2_HW3_30052023
         public override string ToString()
         {
             return this.GetType().Name;
+        }
+
+        /// <summary>
+        /// Compare objects.
+        /// </summary>
+        /// <param name="obj">
+        /// Object for compairing.
+        /// </param>
+        /// <returns>
+        /// true/false
+        /// </returns>
+        public int CompareTo(object obj)
+        {
+            return this.ToString().CompareTo(obj.ToString());
         }
     }
 }
