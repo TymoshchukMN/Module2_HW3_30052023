@@ -13,5 +13,12 @@ namespace Module2_HW3_30052023
     /// </summary>
     public class Shortbread : Cookie
     {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Shortbread"/> class.
+        /// </summary>
+        public Shortbread()
+        {
+            Weight = 270;
+        }
     }
 }

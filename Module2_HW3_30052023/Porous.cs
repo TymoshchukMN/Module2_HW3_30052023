@@ -13,5 +13,12 @@ namespace Module2_HW3_30052023
     /// </summary>
     public sealed class Porous : MilkChocolate
     {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Porous"/> class.
+        /// </summary>
+        public Porous()
+        {
+            Weight = 110;
+        }
     }
 }

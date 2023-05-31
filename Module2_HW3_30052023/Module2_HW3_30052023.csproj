@@ -47,6 +47,7 @@
     <Compile Include="Almond.cs" />
     <Compile Include="Biscuit.cs" />
     <Compile Include="Bar.cs" />
+    <Compile Include="BL.cs" />
     <Compile Include="Candy.cs" />
     <Compile Include="Caramel.cs" />
     <Compile Include="Chocolate.cs" />

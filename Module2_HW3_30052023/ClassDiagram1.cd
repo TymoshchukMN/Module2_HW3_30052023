@@ -29,7 +29,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Module2_HW3_30052023.OrangeCaramel">
-    <Position X="7.5" Y="5" Width="1.5" />
+    <Position X="7.75" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>OrangeCaramel.cs</FileName>
@@ -64,7 +64,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Module2_HW3_30052023.Caramel">
-    <Position X="8.5" Y="3.25" Width="1.5" />
+    <Position X="8.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Caramel.cs</FileName>

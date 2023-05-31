@@ -19,6 +19,15 @@ namespace Module2_HW3_30052023
         /// </summary>
         public static void Run()
         {
+            const int CountGifts = 15;
+
+            Gift[] gifts = new Gift[CountGifts];
+
+            for (int i = 0; i < gifts.Length; i++)
+            {
+
+            }
+            
         }
     }
 }
