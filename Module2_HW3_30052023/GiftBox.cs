@@ -13,7 +13,7 @@ namespace Module2_HW3_30052023
     /// </summary>
     public class GiftBox
     {
-        private const int CountGifts = 15;
+        private const int GiftsBoxSize = 15;
         private Gift[] _gifts;
 
         /// <summary>
@@ -22,15 +22,17 @@ namespace Module2_HW3_30052023
         public GiftBox()
         {
             const int StartRand = 1;
-            const int StopRand = 16;
+            const int StopRand = 8;
 
-            _gifts = new Gift[CountGifts];
+            _gifts = new Gift[GiftsBoxSize];
             Random random = new Random();
 
             // наполнение коробки подарками в случайном порядке
-            for (int i = 0; i < _gifts.Length; i++)
+            for (int i = 0; i < GiftsBoxSize; i++)
             {
-                _gifts[i] = FillGiftBox(random.Next(StartRand, StopRand));
+                int randNUm = random.Next(StartRand, StopRand);
+                _gifts[i] = FillGiftBox(randNUm);
+                Console.WriteLine($"{i} - {_gifts[i]}");
             }
         }
 

@@ -20,5 +20,7 @@ namespace Module2_HW3_30052023
         {
             Weight = 300;
         }
+
+
     }
 }

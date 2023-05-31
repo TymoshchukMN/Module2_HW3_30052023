@@ -3,7 +3,7 @@
   <Class Name="Module2_HW3_30052023.Gift" Collapsed="true">
     <Position X="9.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAABAAAAAAAAAAAEAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Gift.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -24,9 +24,10 @@
   <Class Name="Module2_HW3_30052023.HazelnutChocolate">
     <Position X="0.75" Y="6.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>HazelnutChocolate.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Module2_HW3_30052023.OrangeCaramel">
     <Position X="7.75" Y="5" Width="1.5" />
@@ -109,7 +110,7 @@
   <Class Name="Module2_HW3_30052023.GiftBox" Collapsed="true">
     <Position X="1.25" Y="1" Width="1.25" />
     <TypeIdentifier>
-      <HashCode>AABAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAICAAAAAAAA=</HashCode>
+      <HashCode>AgBAAAAAAAAAAAAAAAAAACAAAAAAAAAAAICAAAAAAAA=</HashCode>
       <FileName>GiftBox.cs</FileName>
     </TypeIdentifier>
   </Class>

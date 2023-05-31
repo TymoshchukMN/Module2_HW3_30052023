@@ -19,18 +19,8 @@ namespace Module2_HW3_30052023
         /// </summary>
         public static void Run()
         {
-            const int CountGifts = 15;
-            const int StartRand = 1;
-            const int StopRand = 16;
+            GiftBox giftBox = new GiftBox();
 
-            Gift[] gifts = new Gift[CountGifts];
-            Random random = new Random();
-
-            // наполнение коробки подарками в случайном порядке
-            for (int i = 0; i < gifts.Length; i++)
-            {
-                gifts[i] = BL.FillGiftBox(random.Next(StartRand, StopRand));
-            }
 
         }
     }

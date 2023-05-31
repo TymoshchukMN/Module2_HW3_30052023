@@ -27,5 +27,9 @@ namespace Module2_HW3_30052023
             set { _weight = value; }
         }
 
+        public override string ToString()
+        {
+            return this.GetType().Name;
+        }
     }
 }

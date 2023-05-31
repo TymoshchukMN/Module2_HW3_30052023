@@ -11,9 +11,8 @@ namespace Module2_HW3_30052023
     /// <summary>
     /// HazelnutChocolate.
     /// </summary>
-    public sealed class HazelnutChocolate : NutChocolate
+    public sealed class HazelnutChocolate : NutChocolate, IComparable
     {
-
         /// <summary>
         /// Initializes a new instance of the
         /// <see cref="HazelnutChocolate"/> class.
@@ -21,7 +20,20 @@ namespace Module2_HW3_30052023
         public HazelnutChocolate()
         {
             Weight = 150;
-            Console.WriteLine("caled HazelnutChocolate");
+        }
+
+        /// <summary>
+        /// Compare objects.
+        /// </summary>
+        /// <param name="obj">
+        /// Object for compairing.
+        /// </param>
+        /// <returns>
+        /// true/false
+        /// </returns>
+        public int CompareTo(object obj)
+        {
+            return this.ToString().CompareTo(obj.ToString()); 
         }
     }
 }

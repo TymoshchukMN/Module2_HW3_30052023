@@ -65,6 +65,7 @@
     <Compile Include="RusberryCaramel.cs" />
     <Compile Include="Shortbread.cs" />
     <Compile Include="Starter.cs" />
+    <Compile Include="UI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -21,15 +21,7 @@ namespace Module2_HW3_30052023
         /// </param>
         private static void Main(string[] args)
         {
-            Gift gift = new Gift();
-
-            //gift.Weight = 20;
-
-            HazelnutChocolate hazelnut = new HazelnutChocolate();
-
-            //hazelnut.Weight = 30;
-            Console.WriteLine($"hazelnut.Weight = {hazelnut.Weight}, gift.Weight = {gift.Weight}");
-
+            Starter.Run();
             Console.ReadKey();
         }
     }
