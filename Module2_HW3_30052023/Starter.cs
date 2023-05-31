@@ -9,20 +9,17 @@ namespace Module2_HW3_30052023
     using System;
 
     /// <summary>
-    /// Started program.
+    /// Started class.
     /// </summary>
-    internal class Program
+    internal class Starter
     {
         /// <summary>
-        /// Sign-in point.
+        /// Initializes static members of the <see cref="Starter"/> class.
+        /// Lounch prohramm.
         /// </summary>
-        /// <param name="args">
-        /// passed args.
-        /// </param>
-        private static void Main(string[] args)
-        {
-            Starter.Run();
-            Console.ReadKey();
+        public static Run()
+        { 
+
         }
     }
 }
