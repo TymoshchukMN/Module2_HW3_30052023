@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Module2_HW3_30052023.Gift">
-    <Position X="6.25" Y="0.5" Width="1.5" />
+    <Position X="7" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Gift.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -15,17 +15,10 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Module2_HW3_30052023.Cookie">
-    <Position X="8.5" Y="2.25" Width="1.5" />
+    <Position X="10.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Cookie.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Module2_HW3_30052023.Fruit">
-    <Position X="13" Y="2.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Fruit.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Module2_HW3_30052023.Chocolate">
@@ -33,13 +26,6 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Сhocolate.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Module2_HW3_30052023.Caramel">
-    <Position X="5.5" Y="3.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Сaramel.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Module2_HW3_30052023.NutChocolate">
@@ -54,13 +40,6 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>HazelnutChocolate.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Module2_HW3_30052023.MilkChocolate">
-    <Position X="2.75" Y="6.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>MilkChocolate.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Module2_HW3_30052023.FruitFilling">
@@ -82,6 +61,34 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>RusberryCaramel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2_HW3_30052023.Biscuit">
+    <Position X="9" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Biscuit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2_HW3_30052023.Shortbread">
+    <Position X="11.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shortbread.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2_HW3_30052023.Almond">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Almond.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2_HW3_30052023.Caramel">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Caramel.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

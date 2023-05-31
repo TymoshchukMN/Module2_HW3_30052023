@@ -1,7 +1,7 @@
 ﻿// Author: Tymoshchuk Maksym
-// Created On : 30/05/2023
+// Created On : 31/05/2023
 // Last Modified On :
-// Description: FruitFilling
+// Description: Caramel
 // Project: Module2_HW3_26052023
 
 namespace Module2_HW3_30052023
@@ -9,9 +9,9 @@ namespace Module2_HW3_30052023
     using System;
 
     /// <summary>
-    /// FruitFilling.
+    /// Caramel.
     /// </summary>
-    public class FruitFilling : Caramel
+    public class Caramel : Candy
     {
     }
 }

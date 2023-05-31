@@ -44,21 +44,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Almond.cs" />
+    <Compile Include="Biscuit.cs" />
     <Compile Include="Candy.cs" />
+    <Compile Include="Caramel.cs" />
     <Compile Include="Cookie.cs" />
-    <Compile Include="Fruit.cs" />
     <Compile Include="FruitFilling.cs" />
     <Compile Include="Gift.cs" />
     <Compile Include="Glazed.cs" />
     <Compile Include="HazelnutChocolate.cs" />
-    <Compile Include="MilkChocolate.cs" />
     <Compile Include="NutChocolate.cs" />
     <Compile Include="OrangeCaramel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RusberryCaramel.cs" />
+    <Compile Include="Shortbread.cs" />
     <Compile Include="Starter.cs" />
-    <Compile Include="Сaramel.cs" />
     <Compile Include="Сhocolate.cs" />
   </ItemGroup>
   <ItemGroup>
