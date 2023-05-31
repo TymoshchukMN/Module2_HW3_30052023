@@ -20,14 +20,9 @@ namespace Module2_HW3_30052023
         public static void Run()
         {
             GiftBox giftBox = new GiftBox();
-            //Array.Sort(giftBox.Gifts);
-            Console.WriteLine(giftBox.GroupedGifts);
-            UI.PrintGiftBox(giftBox);
-            for (int i = 0; i < giftBox.Gifts.Length; i++)
-            {
-                Console.WriteLine(giftBox.Gifts[i]);
-            }
+            UI.PrintGiftBox(giftBox.GroupedGifts);
 
+            Console.ReadKey();
         }
     }
 }

@@ -11,7 +11,7 @@ namespace Module2_HW3_30052023
     /// <summary>
     /// Base class.
     /// </summary>
-    public class Gift:IComparable
+    public class Gift : IComparable
     {
         /// <summary>
         /// gift weight.
@@ -27,6 +27,22 @@ namespace Module2_HW3_30052023
             set { _weight = value; }
         }
 
+        //public static bool operator ==(Gift gift1, Gift gift2)
+        //{
+        //    return gift1.ToString() == gift2.ToString();
+        //}
+
+        //public static bool operator !=(Gift gift1, Gift gift2)
+        //{
+        //    return !(gift1 == gift2);
+        //}
+
+        /// <summary>
+        /// override ToString.
+        /// </summary>
+        /// <returns>
+        /// string.
+        /// </returns>
         public override string ToString()
         {
             return this.GetType().Name;

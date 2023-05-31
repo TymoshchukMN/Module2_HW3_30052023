@@ -19,30 +19,13 @@ namespace Module2_HW3_30052023
         /// <param name="giftBox">
         /// box.
         /// </param>
-        public static void PrintGiftBox(GiftBox giftBox)
+        public static void PrintGiftBox(string [] giftBox)
         {
-            int n = giftBox.Gifts.Length;
-
-            for (int i = 0; i < n; i++)
+            Console.WriteLine("Count:\tGifts:\n");
+            for (int i = 0; i < giftBox.Length; i++)
             {
-                bool isDuplicate = false;
-                for (int j = 0; j < i; j++)
-                {
-                    if (giftBox.Gifts[i].ToString() == giftBox.Gifts[j].ToString())
-                    {
-                        isDuplicate = true;
-                        break;
-                    }
-                }
-
-                if (!isDuplicate)
-                {
-                    Console.WriteLine(giftBox.Gifts[i]);
-                }
-
+                Console.WriteLine(giftBox[i]);
             }
-
-            Console.WriteLine();
         }
     }
 }

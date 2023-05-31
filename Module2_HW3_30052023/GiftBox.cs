@@ -33,7 +33,6 @@ namespace Module2_HW3_30052023
             {
                 int randNUm = random.Next(StartRand, StopRand);
                 _gifts[i] = FillGiftBox(randNUm);
-                Console.WriteLine($"{i} - {_gifts[i]}");
             }
 
             GroupdGifts();
@@ -47,6 +46,9 @@ namespace Module2_HW3_30052023
             get { return _gifts; }
         }
 
+        /// <summary>
+        /// Gets grouped gifts with count elements.
+        /// </summary>
         public string[] GroupedGifts
         {
             get
@@ -107,9 +109,11 @@ namespace Module2_HW3_30052023
             return null;
         }
 
+        /// <summary>
+        /// Group gifts and calculate count.
+        /// </summary>
         private void GroupdGifts()
         {
-
             int n = _gifts.Length;
 
             for (int i = 0; i < n; i++)
@@ -128,15 +132,26 @@ namespace Module2_HW3_30052023
                 {
                     Array.Resize(ref _groupedGifts, _groupedGifts.Length + 1);
                     _groupedGifts[_groupedGifts.Length - 1] = _gifts[i].ToString();
-                    Console.WriteLine(_gifts[i]);
-                }
-
-                for (int i = 0; i < _groupedGifts.Length; i++)
-                {
-
                 }
             }
 
+            for (int i = 0; i < _groupedGifts.Length; i++)
+            {
+                int countCpecificGifts = 0;
+
+                for (int j = 0; j < _gifts.Length; j++)
+                {
+                    if (_groupedGifts[i] == _gifts[j].ToString())
+                    {
+                        ++countCpecificGifts;
+                    }
+                }
+
+                _groupedGifts[i] = $"{countCpecificGifts}\t{_groupedGifts[i]}";
+            }
+
+            Array.Sort(_groupedGifts);
+            Array.Reverse(_groupedGifts);
         }
     }
 }
