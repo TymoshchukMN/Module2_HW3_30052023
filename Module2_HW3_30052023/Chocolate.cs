@@ -11,7 +11,7 @@ namespace Module2_HW3_30052023
     /// <summary>
     /// Chocolate.
     /// </summary>
-    public class Chocolate : Candy
+    public abstract class Chocolate : Candy
     {
     }
 }

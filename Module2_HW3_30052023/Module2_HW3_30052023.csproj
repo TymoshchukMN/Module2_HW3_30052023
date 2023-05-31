@@ -51,7 +51,6 @@
     <Compile Include="Caramel.cs" />
     <Compile Include="Chocolate.cs" />
     <Compile Include="Cookie.cs" />
-    <Compile Include="FruitFilling.cs" />
     <Compile Include="Gift.cs" />
     <Compile Include="Glazed.cs" />
     <Compile Include="HazelnutChocolate.cs" />
