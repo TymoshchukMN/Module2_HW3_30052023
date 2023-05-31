@@ -35,12 +35,29 @@ namespace Module2_HW3_30052023
         }
 
         /// <summary>
-        /// Gets or sets gifts box.
+        /// Gets gifts box.
         /// </summary>
         public Gift[] Gifts
         {
             get { return _gifts; }
-            private set { _gifts = value; }
+        }
+
+        /// <summary>
+        /// Calculate summary weught gifts.
+        /// </summary>
+        /// <returns>
+        /// Weight.
+        /// </returns>
+        public int CalculateWightGiftBox()
+        {
+            int weight = 0;
+
+            for (int i = 0; i < _gifts.Length; i++)
+            {
+                weight += _gifts[i].Weight;
+            }
+
+            return weight;
         }
 
         /// <summary>
@@ -77,5 +94,6 @@ namespace Module2_HW3_30052023
             return null;
         }
 
+       
     }
 }
