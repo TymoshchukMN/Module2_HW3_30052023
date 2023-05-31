@@ -23,6 +23,7 @@ namespace Module2_HW3_30052023
         {
             Starter.Run();
             Console.ReadKey();
+
         }
     }
 }

@@ -11,13 +11,13 @@ namespace Module2_HW3_30052023
     /// <summary>
     /// Started class.
     /// </summary>
-    internal class Starter
+    public class Starter
     {
         /// <summary>
         /// Initializes static members of the <see cref="Starter"/> class.
         /// Lounch prohramm.
         /// </summary>
-        public static Run()
+        public static void Run()
         { 
 
         }
