@@ -106,5 +106,12 @@
       <FileName>Bar.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Module2_HW3_30052023.GiftBox" Collapsed="true">
+    <Position X="1.25" Y="1" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAICAAAAAAAA=</HashCode>
+      <FileName>GiftBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
