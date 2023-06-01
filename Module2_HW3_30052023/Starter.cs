@@ -29,9 +29,11 @@ namespace Module2_HW3_30052023
             Array.Sort(giftBox.Gifts);
             UI.PrintGifts(giftBox.Gifts);
 
+            // сортировка по весу сладости
+            giftBox.SortByWeight();
+            UI.PrintGifts(giftBox.Gifts);
 
-
-            // печать сгруппированной коробки
+            // печать сгруппированной коробки со сладостями
             UI.PrintGiftBox(giftBox);
             giftBox.CalculateWightGiftBox();
 
