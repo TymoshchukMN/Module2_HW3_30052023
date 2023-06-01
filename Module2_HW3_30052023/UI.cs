@@ -21,8 +21,32 @@ namespace Module2_HW3_30052023
         /// </param>
         public static void PrintGifts(Gift[] gift)
         {
-            ChangeColor("Not grouped Gifts:\n", ConsoleColor.Yellow);
+            ChangeColor("\nNot grouped Gifts:\n", ConsoleColor.Yellow);
             Console.WriteLine("Weight\tGift:\n");
+
+            for (int i = 0; i < gift.Length; i++)
+            {
+                Console.WriteLine($"{gift[i].Weight}\t{gift[i]}");
+            }
+        }
+
+        /// <summary>
+        /// Print gift box.
+        /// </summary>
+        /// <param name="gift">
+        /// box.
+        /// </param>
+        /// <param name="message">
+        /// message.
+        /// </param><param name="color">print color.</param>
+        public static void PrintGifts(
+            Gift[] gift,
+            string message,
+            ConsoleColor color = ConsoleColor.Yellow)
+        {
+            ChangeColor($"\n{message}:\n", color);
+            Console.WriteLine("Weight\tGift:\n");
+
             for (int i = 0; i < gift.Length; i++)
             {
                 Console.WriteLine($"{gift[i].Weight}\t{gift[i]}");
@@ -37,7 +61,7 @@ namespace Module2_HW3_30052023
         /// </param>
         public static void PrintGiftBox(GiftBox giftBox)
         {
-            Console.WriteLine("\nGift box:\n");
+            Console.WriteLine("\nSummary gift box:\n");
             ChangeColor(
                 "Count:\tWeight summury:\tWeight one:\tGifts:\n",
                 ConsoleColor.Yellow);
@@ -50,6 +74,14 @@ namespace Module2_HW3_30052023
             ChangeColor(
                 $"\n\nSummary weight:\t{giftBox.GetSummaryWeight} gramm",
                 ConsoleColor.Cyan);
+        }
+
+        /// <summary>
+        /// PrintRequestSweetName.
+        /// </summary>
+        public static void PrintRequestSweetName()
+        {
+            ChangeColor("\nInput sweet name for searchin:\t", ConsoleColor.Red);
         }
 
         /// <summary>
