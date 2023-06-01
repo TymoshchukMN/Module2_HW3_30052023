@@ -19,6 +19,7 @@ namespace Module2_HW3_30052023
         public Porous()
         {
             Weight = 110;
+            MainComponent = Components.BlowingAgent;
         }
     }
 }

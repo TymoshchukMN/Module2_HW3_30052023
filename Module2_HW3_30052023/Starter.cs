@@ -20,6 +20,7 @@ namespace Module2_HW3_30052023
         public static void Run()
         {
             GiftBox giftBox = new GiftBox();
+            UI.PrintGifts(giftBox.Gifts);
             giftBox.CalculateWightGiftBox();
 
             UI.PrintGiftBox(giftBox);

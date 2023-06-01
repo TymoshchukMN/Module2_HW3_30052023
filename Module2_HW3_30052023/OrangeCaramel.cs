@@ -19,8 +19,7 @@ namespace Module2_HW3_30052023
         public OrangeCaramel()
         {
             Weight = 300;
+            MainComponent = Components.Orange;
         }
-
-
     }
 }

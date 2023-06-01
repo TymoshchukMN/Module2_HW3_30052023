@@ -19,6 +19,7 @@ namespace Module2_HW3_30052023
         public Shortbread()
         {
             Weight = 270;
+            MainComponent = Components.Sugar;
         }
     }
 }

@@ -17,6 +17,7 @@ namespace Module2_HW3_30052023
         public hardСhocolate()
         {
             Weight = 50;
+            MainComponent = Components.СocoaBeans;
         }
     }
 }

@@ -9,12 +9,12 @@ namespace Module2_HW3_30052023
     /// <summary>
     /// sweets components.
     /// </summary>
-    public enum Components : byte
+    public enum Components
     {
         /// <summary>
         /// Def vol.
         /// </summary>
-        None = 0,
+        None,
 
         /// <summary>
         /// Hazelnut.

@@ -19,6 +19,7 @@ namespace Module2_HW3_30052023
         public Almond()
         {
             Weight = 170;
+            MainComponent = Components.Almond;
         }
     }
 }

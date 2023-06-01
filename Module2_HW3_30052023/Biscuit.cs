@@ -19,6 +19,7 @@ namespace Module2_HW3_30052023
         public Biscuit()
         {
             Weight = 400;
+            MainComponent = Components.Eggs;
         }
     }
 }
