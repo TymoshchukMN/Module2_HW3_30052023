@@ -100,12 +100,23 @@
       <FileName>NutChocolate.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Module2_HW3_30052023.GiftBox" Collapsed="true">
+  <Class Name="Module2_HW3_30052023.GiftBox">
     <Position X="1.25" Y="1" Width="1.25" />
+    <AssociationLine Name="_gifts" Type="Module2_HW3_30052023.Gift" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.5" Y="2.717" />
+        <Point X="3.388" Y="2.717" />
+        <Point X="3.388" Y="0.75" />
+        <Point X="9.5" Y="0.75" />
+      </Path>
+    </AssociationLine>
     <TypeIdentifier>
       <HashCode>AgBBAAAAAAAAACAAABAAACAAAAAAAAAAgICgAAAgAAA=</HashCode>
       <FileName>GiftBox.cs</FileName>
     </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_gifts" />
+    </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Module2_HW3_30052023.hardСhocolate">
     <Position X="4.75" Y="6.5" Width="1.5" />
