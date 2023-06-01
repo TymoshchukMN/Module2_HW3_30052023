@@ -173,5 +173,22 @@ namespace Module2_HW3_30052023
             Array.Sort(_groupedGifts);
             Array.Reverse(_groupedGifts);
         }
+
+        public void SortByWeight()
+        {
+            int temp;
+            for (int i = 0; i < _gifts.Length - 1; i++)
+            {
+                for (int j = i + 1; j < _gifts.Length; j++)
+                {
+                    if (_gifts[i].Weight > _gifts[j].Weight)
+                    {
+                        temp = _gifts[i].Weight;
+                        _gifts[i].Weight = _gifts[j].Weight;
+                        _gifts[j].Weight = temp;
+                    }
+                }
+            }
+        }
     }
 }

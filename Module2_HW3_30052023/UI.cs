@@ -22,10 +22,10 @@ namespace Module2_HW3_30052023
         public static void PrintGifts(Gift[] gift)
         {
             ChangeColor("Not grouped Gifts:\n", ConsoleColor.Yellow);
-
+            Console.WriteLine("Weight\tGift:\n");
             for (int i = 0; i < gift.Length; i++)
             {
-                Console.WriteLine(gift[i]);
+                Console.WriteLine($"{gift[i].Weight}\t{gift[i]}");
             }
         }
 
@@ -37,24 +37,19 @@ namespace Module2_HW3_30052023
         /// </param>
         public static void PrintGiftBox(GiftBox giftBox)
         {
-            Console.WriteLine("Gift box:\n");
-            //ConsoleColor defColor = Console.ForegroundColor;
-            ChangeColor("Count:\tWeight summury:\tWeight one:\tGifts:\n", ConsoleColor.Yellow);
-
-            //Console.ForegroundColor = ConsoleColor.Yellow;
-            //Console.WriteLine("Count:\tWeight summury:\tWeight one:\tGifts:\n");
-            //Console.ForegroundColor = defColor;
+            Console.WriteLine("\nGift box:\n");
+            ChangeColor(
+                "Count:\tWeight summury:\tWeight one:\tGifts:\n",
+                ConsoleColor.Yellow);
 
             for (int i = 0; i < giftBox.GroupedGifts.Length; i++)
             {
                 Console.WriteLine(giftBox.GroupedGifts[i]);
             }
 
-            ChangeColor($"\n\nSummary weight:\t{giftBox.GetSummaryWeight} gramm",ConsoleColor.Cyan);
-
-            //Console.ForegroundColor = ConsoleColor.Cyan;
-            //Console.WriteLine($"\n\nSummary weight:\t{giftBox.GetSummaryWeight} gramm");
-            //Console.ForegroundColor = defColor;
+            ChangeColor(
+                $"\n\nSummary weight:\t{giftBox.GetSummaryWeight} gramm",
+                ConsoleColor.Cyan);
         }
 
         /// <summary>

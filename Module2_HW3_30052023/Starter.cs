@@ -20,10 +20,20 @@ namespace Module2_HW3_30052023
         public static void Run()
         {
             GiftBox giftBox = new GiftBox();
-            UI.PrintGifts(giftBox.Gifts);
-            giftBox.CalculateWightGiftBox();
 
+            // печать не сгруппировавнной коробки со сладостями.
+            UI.PrintGifts(giftBox.Gifts);
+
+            // сортировка по имени, реализована с помощью интерефейса
+            // IComparable в базововм классе
+            Array.Sort(giftBox.Gifts);
+            UI.PrintGifts(giftBox.Gifts);
+
+
+
+            // печать сгруппированной коробки
             UI.PrintGiftBox(giftBox);
+            giftBox.CalculateWightGiftBox();
 
             Console.ReadKey();
         }
