@@ -20,6 +20,7 @@ namespace Module2_HW3_30052023
         public HazelnutChocolate()
         {
             Weight = 150;
+            MainComponent = Components.Hazelnut;
         }
     }
 }

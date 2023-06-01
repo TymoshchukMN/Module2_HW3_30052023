@@ -41,6 +41,24 @@ namespace Module2_HW3_30052023
         /// </summary>
         BakingPowder,
 
+        /// <summary>
+        /// Orange.
+        /// </summary>
+        Orange,
 
+        /// <summary>
+        /// Rusberry.
+        /// </summary>
+        Rusberry,
+
+        /// <summary>
+        /// Eggs.
+        /// </summary>
+        Eggs,
+
+        /// <summary>
+        /// Sugar.
+        /// </summary>
+        Sugar,
     }
 }
