@@ -50,6 +50,7 @@
     <Compile Include="Candy.cs" />
     <Compile Include="Caramel.cs" />
     <Compile Include="Chocolate.cs" />
+    <Compile Include="Components.cs" />
     <Compile Include="Cookie.cs" />
     <Compile Include="Gift.cs" />
     <Compile Include="GiftBox.cs" />

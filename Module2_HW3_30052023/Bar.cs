@@ -9,12 +9,12 @@ namespace Module2_HW3_30052023
     /// <summary>
     /// Bar chocolate.
     /// </summary>
-    public sealed class Bar : MilkChocolate
+    public sealed class hardСhocolate : MilkChocolate
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="Bar"/> class.
+        /// Initializes a new instance of the <see cref="hardСhocolate"/> class.
         /// </summary>
-        public Bar()
+        public hardСhocolate()
         {
             Weight = 50;
         }

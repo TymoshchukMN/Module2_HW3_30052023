@@ -102,7 +102,7 @@ namespace Module2_HW3_30052023
                 case 2:
                     return new Almond();
                 case 3:
-                    return new Bar();
+                    return new hardСhocolate();
                 case 4:
                     return new Porous();
                 case 5:
@@ -166,7 +166,8 @@ namespace Module2_HW3_30052023
                 string strWeifhtOneGift = _groupedGifts[i].Split(':')[0];
                 string gift = _groupedGifts[i].Split(':')[1];
 
-                _groupedGifts[i] = $"{countCpecificGifts}\t{weightGift}\t\t{strWeifhtOneGift}\t\t{gift}";
+                _groupedGifts[i] = $"{countCpecificGifts}\t{weightGift}" +
+                    $"\t\t{strWeifhtOneGift}\t\t{gift}";
             }
 
             Array.Sort(_groupedGifts);

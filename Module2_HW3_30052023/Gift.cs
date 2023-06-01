@@ -17,6 +17,7 @@ namespace Module2_HW3_30052023
         /// gift weight.
         /// </summary>
         private int _weight;
+        private Components _mainComponent;
 
         /// <summary>
         /// Gets or sets weight.
@@ -25,6 +26,15 @@ namespace Module2_HW3_30052023
         {
             get { return _weight; }
             set { _weight = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets main Component.
+        /// </summary>
+        public Components MainComponent
+        {
+            get { return _mainComponent; }
+            set { _mainComponent = value; }
         }
 
         public static implicit operator Gift(string gift)

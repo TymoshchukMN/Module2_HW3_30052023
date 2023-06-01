@@ -21,7 +21,9 @@ namespace Module2_HW3_30052023
         {
             GiftBox giftBox = new GiftBox();
             giftBox.CalculateWightGiftBox();
+
             UI.PrintGiftBox(giftBox);
+
             Console.ReadKey();
         }
     }
