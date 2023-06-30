@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Module2_HW3_30052023.Gift" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgBAAAAAAAAAAQEAAAEAAAAACAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Gift.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Module2_HW3_30052023.Candy">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Candy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2_HW3_30052023.Cookie">
+    <Position X="13" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cookie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2_HW3_30052023.HazelnutChocolate">
+    <Position X="0.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HazelnutChocolate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2_HW3_30052023.OrangeCaramel">
+    <Position X="7.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OrangeCaramel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2_HW3_30052023.RusberryCaramel">
+    <Position X="9.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RusberryCaramel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2_HW3_30052023.Biscuit">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Biscuit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2_HW3_30052023.Shortbread">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shortbread.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2_HW3_30052023.Almond">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Almond.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2_HW3_30052023.Caramel">
+    <Position X="8.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Caramel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2_HW3_30052023.Chocolate">
+    <Position X="3.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chocolate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2_HW3_30052023.Porous">
+    <Position X="6.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Porous.cs</FileName>
+      <NewMemberFileName>HazelnutChocolate.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2_HW3_30052023.MilkChocolate">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MilkChocolate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2_HW3_30052023.NutChocolate">
+    <Position X="1.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NutChocolate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2_HW3_30052023.GiftBox">
+    <Position X="1.25" Y="1" Width="1.25" />
+    <AssociationLine Name="_gifts" Type="Module2_HW3_30052023.Gift" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.5" Y="2.717" />
+        <Point X="3.388" Y="2.717" />
+        <Point X="3.388" Y="0.75" />
+        <Point X="9.5" Y="0.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AgBBAAAAAAAAACAAABAAACAAAAAAAAAAgICgAAAgAAA=</HashCode>
+      <FileName>GiftBox.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_gifts" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Module2_HW3_30052023.hardСhocolate">
+    <Position X="4.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
